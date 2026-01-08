@@ -1,0 +1,21 @@
+body {
+    font-family: "Spectral", "Times";
+}
+
+.cairoPlay {
+    font-family: "Cairo Play";
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: "Spectral", "Times";
+    font-size: 45px;
+    
+}
+
