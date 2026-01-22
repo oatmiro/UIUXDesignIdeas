@@ -6,6 +6,11 @@ body {
     font-family: "Cairo Play";
 }
 
+.answer {
+    font-family: "Cairo Play";
+    font-size: 50px;
+}
+
 .flexbox {
     display: flex;
     justify-content: center; 
