@@ -29,11 +29,11 @@
 
 
         <div class="flexbox">
-        <button id="webDesignButton" class="generateButton">Web Design Idea</button> 
+        <button id="webDesignButton" class="generateButton" aria-label="generate web design idea">Web Design Idea</button> 
 
-        <button id="mobileDesignButton" class="generateButton">Mobile Design Idea</button>
+        <button id="mobileDesignButton" class="generateButton" aria-label="generate mobile design idea">Mobile Design Idea</button>
 
-        <button id="bothButton" class="generateButton">Web/Mobile Idea</button>
+        <button id="bothButton" class="generateButton" aria-label="generate web/mobile idea">Web/Mobile Idea</button>
 
 
         <noscript>To use this site, please enable JavaScript.</noscript>
@@ -41,7 +41,12 @@
 
         <script src="ideaGenerate.js"></script>
 
+
         </div>
+
+        <button onclick="toggleTheme()">Toggle dark mode</button>
+
+        <script src="themeSwitch.js"></script>
     </body>
 
     </html>
