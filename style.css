@@ -1,13 +1,14 @@
 body {
-    font-family: "Spectral", "Times";
-    color: black;
-    background-color: white;
+    font-family: "Inter", "Times";
+    color: #254F3B;
+    background-color: #F1FFF8;
 }
 
-.darkMode {
-    color: white;
-    background-color: #000000;
+body.darkMode {
+    color: #FFFCE9;
+    background-color: #254F3B;
 }
+
 
 .cairoPlay {
     font-family: "Cairo Play";
@@ -26,13 +27,19 @@ body {
 }
 
 .title {
-    font-family: "Spectral", "Times";
+    font-family: "Inter", "Times";
+    font-weight: 400;
     font-size: 45px;
     
 }
 
+.noMargin {
+    margin-bottom: 0%;
+}
+
 .generateButton {
-    background-color: white;
+    background-color: #254F3B;
+    color: #F1FFF8;
     width: 300px;
     height: 90px;
     border: 1px solid #787878;
@@ -45,17 +52,18 @@ body {
 
 }
 
-.generateButton:hover {background-color: #d7d3da}
+.generateButton:hover {background-color: #befdbe; color: #254F3B}
 
 .generateButton:active {
-  background-color: #d7d3da;
+  background-color: #9bffa8;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: translateY(2px);
 
 }
 
 .generateButton.darkMode {
-    background-color: white;
+    background-color: #FFFCE9;
+    color: #254F3B;
     width: 300px;
     height: 90px;
     border: 1px solid #787878;
